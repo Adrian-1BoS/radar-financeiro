@@ -1,0 +1,252 @@
+{
+  "Financeiro": {
+    "Intermediários Financeiros": {
+      "positivas": {
+        "lucro": 0.9,
+        "rentabilidade": 0.8,
+        "crescimento": 0.7,
+        "guidance positivo": 1.0,
+        "expansão": 0.6,
+        "aquisição de clientes": 0.5
+      },
+      "negativas": {
+        "inadimplência": -0.9,
+        "provisão": -0.7,
+        "queda de juros": -0.4,
+        "recuo": -0.6,
+        "multa regulatória": -0.8
+      }
+    },
+    "Previdência e Seguros": {
+      "positivas": {
+        "sinistralidade baixa": 0.8,
+        "receita recorrente": 0.7,
+        "carteira crescente": 0.6
+      },
+      "negativas": {
+        "sinistros": -0.9,
+        "risco regulatório": -0.6,
+        "desastres naturais": -1.1
+      }
+    },
+    "Exploração de Imóveis": {
+      "positivas": {
+        "aluguéis em alta": 0.8,
+        "vacância baixa": 0.7,
+        "compra de ativo": 0.6
+      },
+      "negativas": {
+        "vacância alta": -0.8,
+        "revisão contratual": -0.6
+      }
+    },
+    "Holdings Diversificadas": {
+      "positivas": {
+        "desinvestimento estratégico": 0.7,
+        "sinergia": 0.6
+      },
+      "negativas": {
+        "litígio": -0.7,
+        "divestimento forçado": -0.8
+      }
+    }
+  },
+  "Petróleo, Gás e Biocombustíveis": {
+    "Exploração, Refino e Distribuição": {
+      "positivas": {
+        "alta do petróleo": 1.0,
+        "demanda crescente": 0.8,
+        "produção recorde": 0.9,
+        "nova descoberta": 1.1
+      },
+      "negativas": {
+        "queda do petróleo": -1.0,
+        "restrições ambientais": -0.7,
+        "acidente": -1.2,
+        "greve": -0.8
+      }
+    }
+  },
+  "Materiais Básicos": {
+    "Mineração": {
+      "positivas": {
+        "alta do minério": 1.0,
+        "demanda da china": 0.9,
+        "volume de vendas": 0.7
+      },
+      "negativas": {
+        "barragem": -1.5,
+        "queda do minério": -0.9,
+        "desastre": -1.2,
+        "multa ambiental": -0.8
+      }
+    },
+    "Siderurgia": {
+      "positivas": {
+        "preços do aço": 0.8,
+        "redução de custos": 0.6
+      },
+      "negativas": {
+        "preços do carvão": -0.7,
+        "excesso de oferta": -0.6,
+        "tarifa de importação": -0.5
+      }
+    }
+  },
+  "Comunicações": {
+    "Telecomunicações": {
+      "positivas": {
+        "expansão de rede": 0.8,
+        "cobertura 5G": 0.7,
+        "aquisição de licença": 0.6
+      },
+      "negativas": {
+        "multa Anatel": -0.9,
+        "falha de rede": -0.7,
+        "competição agressiva": -0.6
+      }
+    }
+  },
+  "Consumo Cíclico": {
+    "Comércio Varejista": {
+      "positivas": {
+        "vendas em alta": 0.9,
+        "crescimento de receita": 0.8,
+        "expansão de lojas": 0.7,
+        "crescimento digital": 0.6
+      },
+      "negativas": {
+        "queda nas vendas": -0.9,
+        "estoques elevados": -0.6,
+        "recuo de margem": -0.7,
+        "juros altos": -0.5
+      }
+    },
+    "Construção Civil": {
+      "positivas": {
+        "lançamento imobiliário": 0.8,
+        "demanda aquecida": 0.7,
+        "crédito imobiliário": 0.6
+      },
+      "negativas": {
+        "atraso de obras": -0.8,
+        "queda de financiamento": -0.6,
+        "aumento do custo": -0.7
+      }
+    }
+  },
+  "Bens Industriais": {
+    "Transporte e Serviços": {
+      "positivas": {
+        "volume de carga": 0.8,
+        "redução de custo com diesel": 0.7,
+        "concessão renovada": 0.6
+      },
+      "negativas": {
+        "acidente ferroviário": -1.0,
+        "aumento de pedágio": -0.6,
+        "regulação de frete": -0.5
+      }
+    },
+    "Máquinas e Equipamentos": {
+      "positivas": {
+        "exportação recorde": 0.7,
+        "carteira de pedidos": 0.8
+      },
+      "negativas": {
+        "desaceleração industrial": -0.7,
+        "alta de insumos": -0.6
+      }
+    }
+  },
+  "Saúde": {
+    "Serviços Médicos e Hospitalares": {
+      "positivas": {
+        "expansão de leitos": 0.8,
+        "acreditação JCI": 0.7,
+        "reajuste de tabela": 0.6
+      },
+      "negativas": {
+        "fraude": -1.0,
+        "investigação": -0.9,
+        "aumento de custos": -0.7
+      }
+    },
+    "Farmacêutico": {
+      "positivas": {
+        "patente aprovada": 1.0,
+        "lançamento de medicamento": 0.8
+      },
+      "negativas": {
+        "patente negada": -1.0,
+        "recall": -1.2,
+        "suspensão de venda": -1.0
+      }
+    }
+  },
+  "Tecnologia da Informação": {
+    "Software e Serviços": {
+      "positivas": {
+        "crescimento ARR": 0.9,
+        "contrato grande": 0.8,
+        "inovação": 0.7,
+        "lançamento de produto": 0.6
+      },
+      "negativas": {
+        "perda de cliente chave": -0.9,
+        "ataque hacker": -1.2,
+        "multa LGPD": -1.0
+      }
+    },
+    "Hardware e Equipamentos": {
+      "positivas": {
+        "demanda por semicondutores": 0.7,
+        "nova fábrica": 0.6
+      },
+      "negativas": {
+        "escassez de chip": -0.8,
+        "problemas na cadeia": -0.7
+      }
+    }
+  },
+  "Utilidade Pública": {
+    "Energia Elétrica": {
+      "positivas": {
+        "expansão de capacidade": 0.8,
+        "queda na inadimplência": 0.6,
+        "leilão vencido": 0.7
+      },
+      "negativas": {
+        "apagão": -1.0,
+        "tarifa elevada": -0.7,
+        "perdas não técnicas": -0.6
+      }
+    },
+    "Água e Saneamento": {
+      "positivas": {
+        "universalização": 0.7,
+        "investimento em infraestrutura": 0.8,
+        "novo contrato": 0.7
+      },
+      "negativas": {
+        "contaminação": -1.0,
+        "crise hídrica": -0.9,
+        "risco político": -0.6
+      }
+    }
+  },
+  "Consumo Não Cíclico": {
+    "Alimentos e Bebidas": {
+      "positivas": {
+        "safra recorde": 0.8,
+        "acordo comercial": 0.7,
+        "marca forte": 0.6
+      },
+      "negativas": {
+        "quebra de safra": -0.9,
+        "custo de matéria-prima": -0.7,
+        "boicote": -0.8
+      }
+    }
+  }
+}
