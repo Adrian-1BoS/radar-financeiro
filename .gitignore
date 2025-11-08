@@ -1,0 +1,33 @@
+Arquivos de Sistema e IDEs
+
+.DS_Store
+.vscode/
+*.swp
+
+Arquivos de Cache e Build
+
+__pycache__/
+*.pyc
+build/
+dist/
+
+Ambientes Virtuais
+
+venv/
+env/
+
+SEGURANÇA: Variáveis de ambiente e segredos
+
+.env
+.streamlit/secrets.toml
+secrets.json
+
+Dados grandes ou gerados que não devem ir para o Git
+Arquivos de dados muito grandes (ex: se o CSV fosse enorme)
+
+data/*.csv
+
+Pastas de resultados ou logs
+
+logs/
+results/
