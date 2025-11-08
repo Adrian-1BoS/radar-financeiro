@@ -1,0 +1,68 @@
+{
+  "concretas": {
+    "positivas": {
+      "dispara": 1.2,
+      "rally": 1.1,
+      "disparada": 1.0,
+      "valorização": 0.9,
+      "sobe": 0.8,
+      "crescimento": 0.8,
+      "alta": 0.7,
+      "ganho": 0.7,
+      "aumento": 0.6,
+      "avanço": 0.6
+    },
+    "negativas": {
+      "despenca": -1.2,
+      "derrete": -1.1,
+      "perda": -0.9,
+      "cai": -0.8,
+      "queda": -0.7,
+      "redução": -0.7,
+      "baixa": -0.6,
+      "recuo": -0.6,
+      "correção": -0.5
+    }
+  },
+  "qualitativas": {
+    "positivas": {
+      "recordes": 1.0,
+      "lucro": 1.0,
+      "recorde": 0.9,
+      "acordo": 0.9,
+      "liderança": 0.8,
+      "otimismo": 0.8,
+      "forte": 0.8,
+      "lidera": 0.7,
+      "sucesso": 0.7
+    },
+    "negativas": {
+      "prejuízo": -1.0,
+      "crise": -1.0,
+      "ameaça": -0.8,
+      "reversão": -0.8,
+      "incerteza": -0.7,
+      "instabilidade": -0.7,
+      "risco": -0.7,
+      "pressão": -0.6,
+      "fraqueza": -0.6
+    }
+  },
+  "ironico": [
+    "será que",
+    "o que esperar",
+    "e agora",
+    "como fica",
+    "mais do mesmo",
+    "o mercado não comprou",
+    "pegadinha do malandro",
+    "depois da euforia"
+  ],
+  "neutralizadoras": [
+    "queda de juros",
+    "redução da inflação",
+    "baixa do dólar",
+    "dados do pib",
+    "reforma tributária"
+  ]
+}
