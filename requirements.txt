@@ -1,15 +1,9 @@
-# Streamlit e Bibliotecas de Visualização e Dados
 streamlit
 pandas
 yfinance
 altair
 requests
-
-# Bibliotecas de Segurança e Ambiente
 python-dotenv
-
-# Bibliotecas de IA e Processamento Numérico
 torch
 numpy
 transformers
-```eof
