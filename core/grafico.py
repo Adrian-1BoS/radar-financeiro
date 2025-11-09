@@ -2,6 +2,24 @@ import altair as alt
 import streamlit as st
 import yfinance as yf
 import pandas as pd
+import os, logging
+from logging.handlers import RotatingFileHandler
+
+
+#config do logging para salvar erros no arquivo .log
+os.makedirs("logs", exist_ok=True)
+
+# Configura rotação: 1 MB por arquivo, até 5 arquivos antigos
+handler = RotatingFileHandler("logs/bugs.log", maxBytes=1_000_000, backupCount=5)
+
+logging.basicConfig(
+    level=logging.WARNING,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        handler,
+        logging.StreamHandler()
+    ]
+)
 
 # 🔹 Mapeamento do periodo para a média móvel conforme boas praticas de mercado
 def obter_janela_media(periodo):

@@ -11,6 +11,23 @@ from core.grafico import (
     plotar_grafico_velas,
     exibir_tabela_precos
 )
+import os, logging
+from logging.handlers import RotatingFileHandler
+
+#config do logging para salvar erros no arquivo .log
+os.makedirs("logs", exist_ok=True)
+
+# Configura rotação: 1 MB por arquivo, até 5 arquivos antigos
+handler = RotatingFileHandler("logs/bugs.log", maxBytes=1_000_000, backupCount=5)
+
+logging.basicConfig(
+    level=logging.WARNING,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        handler,
+        logging.StreamHandler()
+    ]
+)
 
 # 🔹 Interface principal
 st.set_page_config(page_title="Radar Financeiro", layout="wide")
@@ -140,4 +157,3 @@ if "analise_ativa" in st.session_state and st.session_state.analise_ativa and st
         plotar_grafico_linha(dados)
 
     exibir_tabela_precos(dados)
-

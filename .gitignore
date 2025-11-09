@@ -6,7 +6,6 @@ Arquivos de Sistema e IDEs
 *.swp
 Projeto.txt
 ativos_sql.py
-chave.json
 aleatorios.py
 app1.py
 gerar_ativos_json.py
@@ -15,7 +14,7 @@ investIA/
 Relatório_Geral_07_08_2025.xlsx
 Relatório_Geral_07_08_2025_(português).xlsx
 ativos1.json
-
+bugs.log
 
 Arquivos de Cache e Build
 
